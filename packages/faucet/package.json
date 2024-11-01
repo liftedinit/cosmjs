@@ -45,9 +45,9 @@
     "@cosmjs/encoding": "workspace:^",
     "@cosmjs/math": "workspace:^",
     "@cosmjs/proto-signing": "workspace:^",
-    "@cosmjs/stargate": "workspace:^",
     "@cosmjs/utils": "workspace:^",
     "@koa/cors": "^3.3",
+    "@liftedinit/stargate": "workspace:^",
     "koa": "^2.13",
     "koa-bodyparser": "^4.3"
   },

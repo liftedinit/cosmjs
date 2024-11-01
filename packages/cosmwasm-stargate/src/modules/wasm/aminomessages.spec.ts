@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/naming-convention */
 import { fromBase64, toBase64, toUtf8 } from "@cosmjs/encoding";
-import { AminoTypes, coins } from "@cosmjs/stargate";
+import { AminoTypes, coins } from "@liftedinit/stargate";
 import {
   MsgClearAdmin,
   MsgExecuteContract,

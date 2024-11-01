@@ -12,7 +12,7 @@ import {
   createStakingAminoConverters,
   MsgDelegateEncodeObject,
   MsgSendEncodeObject,
-} from "@cosmjs/stargate";
+} from "@liftedinit/stargate";
 import { assert, sleep } from "@cosmjs/utils";
 import { DeepPartial } from "cosmjs-types";
 import { BinaryWriter } from "cosmjs-types/binary";

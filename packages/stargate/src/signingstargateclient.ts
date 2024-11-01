@@ -405,7 +405,10 @@ export class SigningStargateClient extends StargateClient {
     const signDoc = makeSignDocAmino(msgs, fee, chainId, memo, accountNumber, sequence, timeoutHeight);
     const { signature, signed } = await this.signer.signAmino(signerAddress, signDoc);
     const signedTxBody = {
-      messages: signed.msgs.map((msg) => this.aminoTypes.fromAmino(msg)),
+      // Temporary workaround until we have proper Amino conversion symmetry in Telescope
+      // TODO: Remove when https://github.com/cosmology-tech/telescope/issues/660 is fixed
+      // messages: signed.msgs.map((msg) => this.aminoTypes.fromAmino(msg)),
+      messages,
       memo: signed.memo,
       timeoutHeight: timeoutHeight,
     };
