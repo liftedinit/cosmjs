@@ -46,11 +46,11 @@
     "semver": "^7.5.2"
   },
   "devDependencies": {
-    "@cosmjs/stargate": "workspace:^",
     "@istanbuljs/nyc-config-typescript": "^1.0.1",
     "@ledgerhq/hw-transport": "^5.25.0",
     "@ledgerhq/hw-transport-node-hid": "^5.25.0",
     "@ledgerhq/hw-transport-webusb": "^5.25.0",
+    "@liftedinit/stargate": "workspace:^",
     "@types/eslint-plugin-prettier": "^3",
     "@types/jasmine": "^4",
     "@types/ledgerhq__hw-transport": "^4.21.3",

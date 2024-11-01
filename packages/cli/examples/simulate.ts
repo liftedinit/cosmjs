@@ -6,7 +6,7 @@ import {
   GasPrice,
   MsgSendEncodeObject,
   SigningStargateClient,
-} from "@cosmjs/stargate";
+} from "@liftedinit/stargate";
 
 // Wallet
 const mnemonic =
